@@ -19,7 +19,7 @@ function addItemList() {
   li.textContent = addItemInput.value;
   ul.appendChild(li);
   addItemInput.value = "";
-    createDeleteButton(li);
+  createDeleteButton(li);
 }
 
 listItems.forEach((item) => {
